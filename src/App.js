@@ -10,9 +10,9 @@ const SButton = styled(Button)`
 function App() {
   return (
     <div className="App">
-      <Foo />
       <Button>Hexure button</Button>
       <SButton>Extended Hexure button</SButton>
+      <Foo />
     </div>
   );
 }
